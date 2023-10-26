@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="OIB-Task1.css">
+    </head>
+    <body>
+        <section class="main_class">
+            <table class="table1">
+                <tr>
+                    <td colspan="5" style="padding-bottom: 10px;" ><input type="text"  name="entry box" id="t3" value="" style="font-size:25px;" size="14"></td>
+                </tr>
+                <tr id="t1">
+                    <td ><input type="button" value="(" id="t2" onclick="t3.value+='(' " style="background-color: rgb(247, 247, 174);color: black;"></td>
+                    <td ><input type="button" value=")" id="t2" onclick="t3.value+=')' " style="background-color: rgb(247, 247, 174);color: black;"></td>
+                    <td ><input type="button" value="/" id="t2" onclick="t3.value+='/' " style="background-color: rgb(247, 247, 174);color: black;"></td>
+                    <td ><input type="button" value="-" id="t2" onclick="t3.value+='-' " style="background-color: rgb(247, 247, 174);color: black;"></td>
+                </tr>
+                <tr id="t1">
+                    <td ><input type="button" value="7" id="t2" onclick="t3.value+='7' "></td>
+                    <td ><input type="button" value="8" id="t2" onclick="t3.value+='8' "></td>
+                    <td ><input type="button" value="9" id="t2" onclick="t3.value+='9' "></td>
+                    <td ><input type="button" value="%" id="t2" style="padding-right: 25px;background-color: rgb(247, 247, 174);color: black;"" onclick="t3.value+='%' " ></td>
+                </tr>
+                <tr id="t1">
+                    <td ><input type="button" value="4" id="t2" onclick="t3.value+='4' "></td>
+                    <td ><input type="button" value="5" id="t2" onclick="t3.value+='5' "></td>
+                    <td ><input type="button" value="6" id="t2" onclick="t3.value+='6' "></td>
+                    <td ><input type="button" value="*" id="t2" style="padding-right: 31px;background-color: rgb(247, 247, 174);color: black;" onclick="t3.value+='*' " ></td>
+                </tr>
+                <tr id="t1">
+                    <td ><input type="button" value="1" id="t2" onclick="t3.value+='1' "></td>
+                    <td ><input type="button" value="2" id="t2" onclick="t3.value+='2' "></td>
+                    <td ><input type="button" value="3" id="t2" onclick="t3.value+='3' "></td>
+                    <td ><input type="button" value="+" id="t2" onclick="t3.value+='+' " style="background-color: rgb(247, 247, 174);color: black;"></td>
+                </tr>
+                <tr id="t1">
+                    <td ><input type="button" value="." id="t2" style="padding-right: 33px;" onclick="t3.value+='.' "></td>
+                    <td ><input type="button" value="0" id="t2" onclick="t3.value+='0' "></td>
+                    <td><input type="button" value="c" id="t2" onclick="t3.value='' "></td>
+                    <td><input type="button" value="="id="t2" style="background-color: rgb(247, 247, 174);color: black;" onclick="t3.value=eval(t3.value)"></td>
+                </tr>
+
+            </table>
+        </section>
+    </body>
+</html>
